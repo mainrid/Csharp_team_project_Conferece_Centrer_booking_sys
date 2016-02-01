@@ -2,8 +2,8 @@
 C#, WPF (XAML), LINQ + Entity Framework
 
 App developers:
-    Anna Linskaja
-    Alisa Dudinova
+    Anna Linskaja,
+    Alisa Dudinova,
     Sergei Hristoforov
 
 Link to the project page:
