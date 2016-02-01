@@ -1,0 +1,208 @@
+﻿<Page x:Class="Keskus.BookingsConfirmedV"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Keskus"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="700"
+      Title="ConfBookingsV">
+
+    <Grid >
+        <Label  Content="Kinnitatud broneeringud" 
+                HorizontalAlignment="Left" 
+                Margin="38,29,0,0" 
+                VerticalAlignment="Top" 
+                FontSize="21.333" 
+                Padding="0,5,5,5"/>
+        
+        <!-- Booking list -->
+        <DataGrid x:Name="ConfBookingsGrid" 
+                  HorizontalAlignment="Center" 
+                  Margin="36,149,36,0" 
+                  VerticalAlignment="Top" 
+                  Height="174" Width="628" 
+                  Background="#FFF2F1F1" 
+                  CanUserAddRows="false" 
+                  AutoGenerateColumns="False" 
+                  SelectionChanged="ConfBookingsGrid_SelectionChanged" 
+                  SelectionMode="Single" CanUserSortColumns="True"  GridLinesVisibility="Horizontal" HorizontalGridLinesBrush="#FF8E8E8E" AreRowDetailsFrozen="True" TabIndex="7" >
+
+            
+            
+            
+            <DataGrid.Columns>
+
+                <DataGridTemplateColumn Header="ID" Width="50" SortMemberPath="BookingID" CanUserSort="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding BookingID}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Kuupäev" Width="90" SortMemberPath="Date" CanUserSort="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Date, StringFormat=d, ConverterCulture='de-DE' }"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Klient" Width="150" SortMemberPath="CustomerCompany" CanUserSort="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding CustomerCompany}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Ruum" Width="162" SortMemberPath="Room" CanUserSort="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate >
+                            <TextBlock x:Name="cellRoom" 
+                                       Text="{Binding Room}" 
+                                       Padding="3,0,0,0" />
+                            <!-- trigger setting cell background"RED" for inactive room-->
+                            <DataTemplate.Triggers> 
+                                <DataTrigger Binding="{Binding RoomActive}" Value="false">
+                                    <Setter TargetName="cellRoom" Property="Foreground" Value="White"/>
+                                    <Setter TargetName="cellRoom" Property="Background" Value="Red"/>
+                                    <Setter TargetName="cellRoom" Property="ToolTip" Value="See ruum ei ole aktiivne. Broneeri ümber"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding RoomActive}" Value="true">
+                                    <Setter TargetName="cellRoom" Property="Background" Value="Transparent"/>
+                                </DataTrigger>
+                                
+                            </DataTemplate.Triggers>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header=" " Width="72">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnUpdate" Content="Muuda" Click="ChangeBtn_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header=" " Width="72">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnArchive"  Content="Kustuta" Click="DeleteBtn_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <!-- end booking list -->
+        
+        
+        <!--filter area-->
+        <Label  Content="Filtrid" HorizontalAlignment="Left" Margin="38,90,0,0" VerticalAlignment="Top"/>
+        
+        <TextBox x:Name="txtFilterId" 
+                 HorizontalAlignment="Left" 
+                 Height="23" Margin="38,121,0,0" 
+                 TextWrapping="Wrap" Text="" 
+                 VerticalAlignment="Top" 
+                 Width="46" 
+                 PreviewTextInput="CheckTextInput" TabIndex="1"/>
+        
+        <TextBox x:Name="txtFilterCustomer" 
+                 HorizontalAlignment="Left" 
+                 Height="23" 
+                 Margin="188,121,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top" 
+                 Width="144" TabIndex="3"/>
+        
+        <TextBox x:Name="txtFilterRoom" 
+                 HorizontalAlignment="Left" 
+                 Height="23"
+                 Margin="337,121,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top" Width="150" TabIndex="4"/>
+        
+        <Button x:Name="btnFilter" 
+                Content="Filtreeri" 
+                HorizontalAlignment="Left" 
+                Margin="492,121,0,0" 
+                VerticalAlignment="Top" 
+                Width="75" Height="23" 
+                Click="btnFilter_Click" TabIndex="5"/>
+        
+        <Button x:Name="btnDeleteFilter" 
+                Content="Puhasta filtrid" 
+                HorizontalAlignment="Left" 
+                Margin="572,121,0,0" 
+                VerticalAlignment="Top" 
+                Width="92" 
+                Height="23" 
+                Click="btnDeleteFilter_Click" TabIndex="6"/>
+        
+        <DatePicker x:Name="txtFilterDate" 
+                    HorizontalAlignment="Left" 
+                    Margin="89,121,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="94"  
+                    Height="23" 
+                    Loaded="DatePicker_Loaded" TabIndex="2"/>
+         <!-- end filter area-->
+        
+        <!-- booking details-->
+        <Grid HorizontalAlignment="Left" 
+              Height="148" 
+              Margin="38,342,0,0" 
+              VerticalAlignment="Top" 
+              Width="626" 
+              Background="#347DBA1D">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1.5*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Label Content="Broneering" HorizontalAlignment="Left" VerticalAlignment="Top" Height="31" Width="73" FontWeight="Bold"/>
+            <Label Content="Kuupäev" HorizontalAlignment="Left" Margin="0,0.333,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Height="32" Width="73" Grid.Row="1"/>
+            <Label Content="Ruum" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Height="32" Width="73"/>
+            <Label Content="Osalejate arv" HorizontalAlignment="Left" Margin="0,0.667,0,0" Grid.Row="3" VerticalAlignment="Top" Height="31" Width="83" Grid.RowSpan="2"/>
+            <Label Content="Kontaktisik" Grid.Column="2" HorizontalAlignment="Left" Margin="0.333,24.333,0,0" VerticalAlignment="Top" Height="26" Width="73" Grid.Row="1" Grid.RowSpan="3"/>
+            <Label Content="Klient" Grid.Column="2" HorizontalAlignment="Left" Margin="0.333,24,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Height="25" Width="73"/>
+            <Label Content="Kontakt" Grid.Column="2" HorizontalAlignment="Left" Margin="2.333,1,0,0" Grid.Row="3" VerticalAlignment="Top" Height="24" Width="73" Grid.RowSpan="2"/>
+            <Label Content="Loodud" Grid.Column="3" HorizontalAlignment="Left" Height="32" Margin="125,0.333,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="74" Grid.ColumnSpan="2" Grid.Row="1"/>
+            <Label Content="Kinnitatud" Grid.Column="3" HorizontalAlignment="Left" Height="30" Margin="125,0,0,0" Grid.Row="3" VerticalAlignment="Top" Width="74" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+            <Label Grid.ColumnSpan="2" Content="Admin" Grid.Column="3" HorizontalAlignment="Left" Height="31" Margin="125,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="74"/>
+            <TextBlock x:Name="txtID" HorizontalAlignment="Left" Margin="83,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="31" Width="115" Grid.ColumnSpan="2" Padding="5" FontSize="14.667"/>
+            <TextBlock x:Name="txtDate" HorizontalAlignment="Left" Margin="0.667,0.333,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="24" Width="115" Padding="5" Grid.Column="1" Grid.Row="1"/>
+            <TextBlock x:Name="txtRoom" HorizontalAlignment="Left" Margin="0.667,24.333,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="25" Width="115" Padding="5" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1"/>
+            <TextBlock x:Name="txtParticipants" HorizontalAlignment="Left" Margin="0.667,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="24" Width="115" Padding="5" Grid.Row="3" Grid.Column="1"/>
+            <TextBlock x:Name="txtCustomer" HorizontalAlignment="Left" Margin="2,0.333,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="24" Width="115" Padding="5" Grid.Row="1" Grid.Column="3"/>
+            <TextBlock x:Name="txtCustomerPIC" Margin="2,24.333,7.333,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="25" Padding="5" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2"/>
+            <TextBlock x:Name="txtContact" HorizontalAlignment="Left" Margin="2,1,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="24" Width="115" Padding="5" Grid.Row="3" Grid.Column="3" Grid.RowSpan="2"/>
+            <TextBlock x:Name="txtCreated" HorizontalAlignment="Left" Margin="0.333,0.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="115" Padding="5" Grid.Column="5" Grid.RowSpan="2" Grid.Row="1"/>
+            <TextBlock x:Name="txtConfirmed" HorizontalAlignment="Left" Margin="0.333,1,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="24" Width="115" Padding="5" Grid.Column="5" Grid.Row="3" Grid.RowSpan="2"/>
+            <TextBlock x:Name="txtAdmin" HorizontalAlignment="Left" Margin="0.333,0.667,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="24" Width="115" Padding="5" Grid.Column="5" Grid.Row="2"/>
+            <Label Content="Lisainfo" HorizontalAlignment="Left" Margin="0,0.333,0,0" Grid.Row="4" VerticalAlignment="Top" Height="31" Width="83"/>
+            <TextBlock x:Name="txtAdditional" Grid.Column="1" HorizontalAlignment="Left" Margin="0.667,0.333,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.169,-0.458" Padding="5" ScrollViewer.CanContentScroll="True" Grid.ColumnSpan="5" Height="49" Width="542"/>
+        </Grid>
+        <!-- end booking details-->
+    </Grid>
+</Page>

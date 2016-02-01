@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KeskusBaasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Keskus_baasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Administrators" EntityType="KeskusBaasModel.Administrator" />
+    <EntitySet Name="Bookings" EntityType="KeskusBaasModel.Booking" />
+    <EntitySet Name="Contacts" EntityType="KeskusBaasModel.Contact" />
+    <EntitySet Name="ContactTypes" EntityType="KeskusBaasModel.ContactType" />
+    <EntitySet Name="Customers" EntityType="KeskusBaasModel.Customer" />
+    <EntitySet Name="Rooms" EntityType="KeskusBaasModel.Room" />
+    <AssociationSet Name="FK_Broneering_Administraator1" Association="KeskusBaasModel.FK_Broneering_Administraator1">
+      <End Role="Administrator" EntitySet="Administrators" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Broneering_Klient1" Association="KeskusBaasModel.FK_Broneering_Klient1">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Broneering_Ruum1" Association="KeskusBaasModel.FK_Broneering_Ruum1">
+      <End Role="Room" EntitySet="Rooms" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kontakt_Klient1" Association="KeskusBaasModel.FK_Kontakt_Klient1">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Contact" EntitySet="Contacts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kontakt_Kontaktliik1" Association="KeskusBaasModel.FK_Kontakt_Kontaktliik1">
+      <End Role="ContactType" EntitySet="ContactTypes" />
+      <End Role="Contact" EntitySet="Contacts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Administrator">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CanChange" Type="Boolean" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bookings" Relationship="KeskusBaasModel.FK_Broneering_Administraator1" FromRole="Administrator" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="BookingID" />
+    </Key>
+    <Property Name="BookingID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RoomID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="Participants" Type="Int32" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Confirmed" Type="DateTime" Precision="3" />
+    <Property Name="AdminID" Type="Int32" Nullable="false" />
+    <Property Name="AdditionalInfo" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Archived" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Administrator" Relationship="KeskusBaasModel.FK_Broneering_Administraator1" FromRole="Booking" ToRole="Administrator" />
+    <NavigationProperty Name="Customer" Relationship="KeskusBaasModel.FK_Broneering_Klient1" FromRole="Booking" ToRole="Customer" />
+    <NavigationProperty Name="Room" Relationship="KeskusBaasModel.FK_Broneering_Ruum1" FromRole="Booking" ToRole="Room" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="ContactID" />
+    </Key>
+    <Property Name="ContactID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="ContactTypeID" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Created" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Customer" Relationship="KeskusBaasModel.FK_Kontakt_Klient1" FromRole="Contact" ToRole="Customer" />
+    <NavigationProperty Name="ContactType" Relationship="KeskusBaasModel.FK_Kontakt_Kontaktliik1" FromRole="Contact" ToRole="ContactType" />
+  </EntityType>
+  <EntityType Name="ContactType">
+    <Key>
+      <PropertyRef Name="ContactTypeID" />
+    </Key>
+    <Property Name="ContactTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Compulsory" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Contacts" Relationship="KeskusBaasModel.FK_Kontakt_Kontaktliik1" FromRole="ContactType" ToRole="Contact" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomertID" />
+    </Key>
+    <Property Name="CustomertID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ContactPerson" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bookings" Relationship="KeskusBaasModel.FK_Broneering_Klient1" FromRole="Customer" ToRole="Booking" />
+    <NavigationProperty Name="Contacts" Relationship="KeskusBaasModel.FK_Kontakt_Klient1" FromRole="Customer" ToRole="Contact" />
+  </EntityType>
+  <EntityType Name="Room">
+    <Key>
+      <PropertyRef Name="RoomID" />
+    </Key>
+    <Property Name="RoomID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Seats" Type="Int32" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Bookings" Relationship="KeskusBaasModel.FK_Broneering_Ruum1" FromRole="Room" ToRole="Booking" />
+  </EntityType>
+  <Association Name="FK_Broneering_Administraator1">
+    <End Type="KeskusBaasModel.Administrator" Role="Administrator" Multiplicity="1" />
+    <End Type="KeskusBaasModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrator">
+        <PropertyRef Name="AdminID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Broneering_Klient1">
+    <End Type="KeskusBaasModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="KeskusBaasModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomertID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Broneering_Ruum1">
+    <End Type="KeskusBaasModel.Room" Role="Room" Multiplicity="1" />
+    <End Type="KeskusBaasModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kontakt_Klient1">
+    <End Type="KeskusBaasModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="KeskusBaasModel.Contact" Role="Contact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomertID" />
+      </Principal>
+      <Dependent Role="Contact">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kontakt_Kontaktliik1">
+    <End Type="KeskusBaasModel.ContactType" Role="ContactType" Multiplicity="1" />
+    <End Type="KeskusBaasModel.Contact" Role="Contact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ContactType">
+        <PropertyRef Name="ContactTypeID" />
+      </Principal>
+      <Dependent Role="Contact">
+        <PropertyRef Name="ContactTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

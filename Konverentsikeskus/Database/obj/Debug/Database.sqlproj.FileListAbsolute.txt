@@ -1,0 +1,9 @@
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\bin\Debug\Database.dacpac
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\bin\Debug\Database.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\bin\Debug\Database.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\obj\Debug\Database.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\obj\Debug\Database.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\obj\Debug\Model.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\obj\Debug\refactor.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\obj\Debug\postdeploy.sql
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Database\obj\Debug\predeploy.sql

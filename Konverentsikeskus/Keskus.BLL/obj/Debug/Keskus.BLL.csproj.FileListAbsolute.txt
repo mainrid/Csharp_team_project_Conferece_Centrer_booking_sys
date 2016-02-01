@@ -1,0 +1,13 @@
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\Keskus.BLL.dll.config
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\Keskus.BLL.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\Keskus.BLL.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\EntityFramework.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\Keskus.DAL.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\Keskus.DAL.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\EntityFramework.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\obj\Debug\Keskus.BLL.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\obj\Debug\Keskus.BLL.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.BLL\obj\Debug\Keskus.BLL.csprojResolveAssemblyReference.cache

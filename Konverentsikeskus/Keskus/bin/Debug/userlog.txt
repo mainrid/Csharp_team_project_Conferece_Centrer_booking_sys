@@ -1,0 +1,140 @@
+﻿25-Jan-16 8:02:38 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:02:48 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:02:48 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:03:47 PM | Bookings data is changed - Added new booking 19046 by  on 25-Jan-16 8:03:47 PM: date 04-Feb-16 12:00:00 AM, room:, customer:, participants: 20, additional: no info 
+25-Jan-16 8:04:12 PM | Bookings data is changed - Booking 19046 of 23042 updated, from: date 04-Feb-16 12:00:00 AM, room:System.Data.Entity.DynamicProxies.Room_C21521235854AF7C2A95C8DFE1363E271F017D170CAB70FEA7C08DBCD1230788,  participants: 20, additional: no info 
+25-Jan-16 8:04:13 PM | Bookings data is changed - Booking 19046 of 23042 updated, to: date 06-Feb-16 12:00:00 AM, room:System.Data.Entity.DynamicProxies.Room_C21521235854AF7C2A95C8DFE1363E271F017D170CAB70FEA7C08DBCD1230788,  participants: 20, additional: no info 
+25-Jan-16 8:04:18 PM | Bookings data is changed - Booking 19046 is confirmed on 25-Jan-16 8:04:18 PM 
+25-Jan-16 8:04:21 PM | Bookings data is changed - Booking 19042 is archived on 25-Jan-16 8:04:21 PM 
+25-Jan-16 8:04:37 PM | Bookings data is changed - Booking 19046 of 23042 updated, from: date 06-Feb-16 12:00:00 AM, room:System.Data.Entity.DynamicProxies.Room_C21521235854AF7C2A95C8DFE1363E271F017D170CAB70FEA7C08DBCD1230788,  participants: 20, additional: no info 
+25-Jan-16 8:04:37 PM | Bookings data is changed - Booking 19046 of 23043 updated, to: date 06-Feb-16 12:00:00 AM, room:System.Data.Entity.DynamicProxies.Room_C21521235854AF7C2A95C8DFE1363E271F017D170CAB70FEA7C08DBCD1230788,  participants: 20, additional: no info 
+25-Jan-16 8:04:47 PM | Contacts data is changed - Contact was added on 25-Jan-16 8:04:47 PM for customer 23043: type 10066 - value 456578
+25-Jan-16 8:04:54 PM | Contacts data is changed - Contact changed from: 23043, 10066, 456578
+25-Jan-16 8:04:54 PM | Contacts data is changed - Contact changed to: 23043, 10066, 4565781
+25-Jan-16 8:05:10 PM | Rooms data is changed - Room updated, from: Saturn, 130, True
+25-Jan-16 8:05:10 PM | Rooms data is changed - Room updated, to: Saturn, 120, False
+25-Jan-16 8:05:15 PM | Bookings data is changed - Booking 19040 is archived on 25-Jan-16 8:05:15 PM 
+25-Jan-16 8:05:27 PM | Reports were accessed - Report was requested for customer ID: 23042,  ABC OÜ, for period 05-Jan-16 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 8:05:29 PM | Reports were accessed - Report export to file is requested
+25-Jan-16 8:05:29 PM | Reports were accessed - Successful export to file.
+25-Jan-16 8:06:06 PM | Reports were accessed - Report was requested for customer ID: 23043,  XYZ AS, for period 05-Jan-16 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 8:06:10 PM | Reports were accessed - Report was requested for room ID: 12060,  Saturn, for period 05-Jan-16 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 8:06:12 PM | Reports were accessed - Report was requested for room ID: 12061,  Merkuur, for period 05-Jan-16 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 8:06:14 PM | Reports were accessed - Report was requested for room ID: 12062,  Marss, for period 05-Jan-16 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 8:06:16 PM | Reports were accessed - Full Report was requested for period: 05-Jan-16 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 8:06:21 PM | Logout attempt:  - -------------------------------- successful at 25-Jan-16 8:06:21 PM. Admin: Test Admin -------------------------------
+25-Jan-16 8:07:40 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:07:40 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:08:03 PM | Bookings data is changed - Booking 19041 of 23042 updated, from: date 26-Jan-16 12:00:00 AM, room:System.Data.Entity.DynamicProxies.Room_C21521235854AF7C2A95C8DFE1363E271F017D170CAB70FEA7C08DBCD1230788,  participants: 40, additional: no pets allowed 
+25-Jan-16 8:08:04 PM | Bookings data is changed - Booking 19041 of 23042 updated, to: date 26-Jan-16 12:00:00 AM, room:System.Data.Entity.DynamicProxies.Room_C21521235854AF7C2A95C8DFE1363E271F017D170CAB70FEA7C08DBCD1230788,  participants: 40, additional: no pets allowed 
+25-Jan-16 8:20:14 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:20:19 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:20:19 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:25:36 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:30:55 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:34:22 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:34:26 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:34:35 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:34:35 PM. Admin: Alisa ------------------------------
+25-Jan-16 8:38:27 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:38:27 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:41:14 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:41:17 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:41:17 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:44:10 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:44:10 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:45:32 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:45:32 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:48:17 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:49:00 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:49:00 PM. Admin: Test Admin ------------------------------
+25-Jan-16 8:54:27 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 8:54:30 PM | Login attempt:  - --------------- successful at 25-Jan-16 8:54:30 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:02:18 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:02:18 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:03:35 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:03:35 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:04:13 PM | Reports were accessed - Full Report was requested for period: 08-Jan-16 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 9:04:31 PM | Reports were accessed - Report was requested for customer ID: 23043,  XYZ AS, for period 30-Oct-15 12:00:00 AM - 14-Nov-15 12:00:00 AM
+25-Jan-16 9:04:35 PM | Reports were accessed - Full Report was requested for period: 30-Oct-15 12:00:00 AM - 14-Nov-15 12:00:00 AM
+25-Jan-16 9:04:43 PM | Reports were accessed - Full Report was requested for period: 30-Oct-15 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 9:04:46 PM | Reports were accessed - Report export to file is requested
+25-Jan-16 9:04:46 PM | Reports were accessed - Successful export to file.
+25-Jan-16 9:22:56 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:22:56 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:29:39 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:29:39 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:32:42 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 9:32:47 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:32:47 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:35:21 PM | Reports were accessed - Full Report was requested for period: 28-Dec-15 12:00:00 AM - 24-Jan-16 12:00:00 AM
+25-Jan-16 9:36:45 PM | Customers data is changed - New customer added. ID 23044: test, nbnv
+25-Jan-16 9:37:39 PM | Bookings data is changed - Added new booking 19047 by  on 25-Jan-16 9:37:39 PM: date 30-Jan-16 12:00:00 AM, room:, customer:, participants: 2, additional:  
+25-Jan-16 9:49:15 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:49:15 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:49:22 PM | Customers data is changed - New customer added. ID 24044: afd, fdg
+25-Jan-16 9:50:00 PM | Customers data is changed - New customer added. ID 24045: sfzdxg, asdfg
+25-Jan-16 9:53:47 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 9:53:53 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:53:53 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:55:44 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:55:44 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:57:17 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:57:17 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:59:08 PM | Login attempt:  - --------------- successful at 25-Jan-16 9:59:08 PM. Admin: Test Admin ------------------------------
+25-Jan-16 9:59:45 PM | Rooms data is changed - Room updated, from: Marss, 55, True
+25-Jan-16 9:59:45 PM | Rooms data is changed - Room updated, to: Marss, 55, True
+25-Jan-16 9:59:47 PM | Logout attempt:  - -------------------------------- successful at 25-Jan-16 9:59:47 PM. Admin: Test Admin -------------------------------
+25-Jan-16 10:02:59 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:02:59 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:04:20 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:04:20 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:10:17 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:10:17 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:15:00 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:15:00 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:17:54 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:17:54 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:21:56 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 10:22:02 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:22:02 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:26:45 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:26:45 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:27:36 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:27:36 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:28:44 PM | Bookings data is changed - Added new booking 20047 by  on 25-Jan-16 10:28:43 PM: date 03-Mar-17 12:00:00 AM, room:, customer:, participants: 34, additional: q3456t 
+25-Jan-16 10:34:46 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:34:46 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:36:29 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:36:29 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:38:08 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:38:08 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:50:37 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:50:37 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:50:43 PM | Bookings data is changed - Booking 19047 is confirmed on 25-Jan-16 10:50:42 PM 
+25-Jan-16 10:50:48 PM | Bookings data is changed - Booking 20047 is confirmed on 25-Jan-16 10:50:48 PM 
+25-Jan-16 10:54:45 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:54:45 PM. Admin: Test Admin ------------------------------
+25-Jan-16 10:58:10 PM | Login attempt:  - --------------- successful at 25-Jan-16 10:58:10 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:01:45 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:01:45 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:02:19 PM | Rooms data is changed - Room updated, from: Saturn, 120, False
+25-Jan-16 11:02:19 PM | Rooms data is changed - Room updated, to: Saturn, 120, True
+25-Jan-16 11:02:24 PM | Rooms data is changed - Room updated, from: Merkuur, 30, False
+25-Jan-16 11:02:24 PM | Rooms data is changed - Room updated, to: Merkuur, 30, True
+25-Jan-16 11:03:02 PM | Customers data is changed - New customer added. ID 25044: Mamma Mia GmbH, Chequita
+25-Jan-16 11:03:07 PM | Contacts data is changed - Contact was added on 25-Jan-16 11:03:07 PM for customer 25044: type 10065 - value banana
+25-Jan-16 11:04:02 PM | Customers data is changed - New customer added. ID 25045: Ola-la, aha ha
+25-Jan-16 11:04:35 PM | Bookings data is changed - Added new booking 21047 by  on 25-Jan-16 11:04:35 PM: date 07-Feb-16 12:00:00 AM, room:, customer:, participants: 24, additional: wedding 
+25-Jan-16 11:04:47 PM | Bookings data is changed - Booking 21047 is confirmed on 25-Jan-16 11:04:47 PM 
+25-Jan-16 11:06:32 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:06:32 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:07:06 PM | Rooms data is changed - Room updated, from: Marss, 55, True
+25-Jan-16 11:07:06 PM | Rooms data is changed - Room updated, to: Marss, 55, False
+25-Jan-16 11:08:10 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 11:08:15 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:08:15 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:10:51 PM | Login attempt:  - ...................... usuccessful ............................
+25-Jan-16 11:10:56 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:10:56 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:16:50 PM | Login attempt:  - *unsuccessful*
+25-Jan-16 11:17:07 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:17:07 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:27:27 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:27:27 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:28:03 PM | Customers data is changed - New customer added. ID 25048: Anna, Maria
+25-Jan-16 11:28:17 PM | Contacts data is changed - Contact was added on 25-Jan-16 11:28:16 PM for customer 25048: type 10068 - value dfjfgj
+25-Jan-16 11:40:23 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:40:23 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:47:19 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:47:19 PM. Admin: Test Admin ------------------------------
+25-Jan-16 11:47:37 PM | Bookings data is changed - Booking 21048 is confirmed on 25-Jan-16 11:47:36 PM 
+25-Jan-16 11:49:53 PM | Login attempt:  - --------------- successful at 25-Jan-16 11:49:53 PM. Admin: Test Admin ------------------------------
+26-Jan-16 12:17:26 AM | Login attempt:  - --------------- successful at 26-Jan-16 12:17:26 AM. Admin: Test Admin ------------------------------
+26-Jan-16 12:17:40 AM | Customers data is changed - Customer updated, from: Anna, Maria
+26-Jan-16 12:17:41 AM | Customers data is changed - Customer updated, to: Anna, MariaOlga
+26-Jan-16 12:19:21 AM | Login attempt:  - --------------- successful at 26-Jan-16 12:19:21 AM. Admin: Test Admin ------------------------------
+26-Jan-16 12:19:28 AM | Customers data is changed - Customer updated, from: Anna, MariaOlga
+26-Jan-16 12:19:28 AM | Customers data is changed - Customer updated, to: Anna, MariaOl
+26-Jan-16 12:19:48 AM | Contacts data is changed - Contact changed from: 25048, 10068, dfjfgj
+26-Jan-16 12:19:48 AM | Contacts data is changed - Contact changed to: 25048, 10068, aaaaaa
+26-Jan-16 12:21:03 AM | Login attempt:  - --------------- successful at 26-Jan-16 12:21:03 AM. Admin: Alisa ------------------------------
+26-Jan-16 12:21:16 AM | Contacts data is changed - Contact changed from: 25048, 10068, aaaaaa
+26-Jan-16 12:21:17 AM | Contacts data is changed - Contact changed to: 25048, 10068, bbbbbbb
+26-Jan-16 12:21:52 AM | Customers data is changed - New customer added. ID 26048: fff, dsdsd
+26-Jan-16 12:24:07 AM | Login attempt:  - --------------- successful at 26-Jan-16 12:24:07 AM. Admin: Test Admin ------------------------------
+26-Jan-16 12:24:15 AM | Contacts data is changed - Contact was added on 26-Jan-16 12:24:15 AM for customer 25047: type 10069 - value sadfg
+26-Jan-16 12:24:25 AM | Customers data is changed - New customer added. ID 26049: srdtfyguh, dhfyg
+29-Jan-16 1:10:32 AM | Login attempt:  - --------------- successful at 29-Jan-16 1:10:32 AM. Admin: Test Admin ------------------------------
+29-Jan-16 1:16:15 AM | Login attempt:  - --------------- successful at 29-Jan-16 1:16:15 AM. Admin: Test Admin ------------------------------
+29-Jan-16 1:21:54 AM | Login attempt:  - --------------- successful at 29-Jan-16 1:21:54 AM. Admin: Test Admin ------------------------------
+29-Jan-16 1:24:46 AM | Bookings data is changed - Added new booking 22061 by  on 29-Jan-16 1:24:45 AM: date 29-Jan-16 12:00:00 AM, room:, customer:, participants: 100, additional:  
+29-Jan-16 1:24:59 AM | Bookings data is changed - Booking 22061 is archived on 29-Jan-16 1:24:59 AM 
+29-Jan-16 1:37:18 AM | Bookings data is changed - Booking 22055 is confirmed on 29-Jan-16 1:37:18 AM 
+29-Jan-16 1:59:01 AM | Customers data is changed - New customer added. ID 28048: AnyName, Any PIC
+29-Jan-16 2:09:52 AM | Rooms data is changed - Room updated, from: Saturn, 130, True
+29-Jan-16 2:09:52 AM | Rooms data is changed - Room updated, to: Saturn, 130, False
+29-Jan-16 2:14:34 AM | Reports were accessed - Report was requested for customer ID: 27050,  ABC OÜ, for period 28-Dec-15 12:00:00 AM - 28-Jan-16 12:00:00 AM
+29-Jan-16 2:14:52 AM | Reports were accessed - Report was requested for customer ID: 27051,  XYZ AS, for period 28-Dec-15 12:00:00 AM - 28-Jan-16 12:00:00 AM
+29-Jan-16 2:14:54 AM | Reports were accessed - Report was requested for customer ID: 27050,  ABC OÜ, for period 28-Dec-15 12:00:00 AM - 28-Jan-16 12:00:00 AM

@@ -1,0 +1,239 @@
+22-Jan-16 9:03:39 PM | ContactType updated - ContactType added: skype, False
+22-Jan-16 9:03:39 PM | ContactType updated - ContactType added: phone, True
+22-Jan-16 9:03:39 PM | ContactType updated - ContactType added: email, False
+22-Jan-16 9:03:39 PM | Customers data is changed - New customer added. ID 7032: Elektrum, Anna
+22-Jan-16 9:03:39 PM | Customers data is changed - New customer added. ID 7033: EE, Daria
+22-Jan-16 9:03:39 PM | Contacts data is changes - Contact was added on 22-Jan-16 9:03:39 PM for customer 7032: type 7050 - value val_skype
+22-Jan-16 9:03:39 PM | Contacts data is changes - Contact was added on 22-Jan-16 9:03:39 PM for customer 7032: type 7050 - value val_skypeMail
+22-Jan-16 9:03:39 PM | Contacts data is changes - Contact was added on 22-Jan-16 9:03:39 PM for customer 7032: type 7050 - value val_skypePho
+22-Jan-16 9:03:39 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+22-Jan-16 9:03:39 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+22-Jan-16 9:03:39 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+22-Jan-16 9:03:39 PM | Rooms data is changed - New room added: Saturn, 130, False
+22-Jan-16 9:03:40 PM | Rooms data is changed - New room added: Merkuur, 30, True
+22-Jan-16 9:03:40 PM | Rooms data is changed - New room added: Marss, 55, True
+22-Jan-16 9:03:40 PM | Bookings data is changed - Added new booking 6020 by  on 22-Jan-16 9:03:40 PM: date 22-Jan-16 9:03:40 PM, room:, customer:, participants: 25, additional: no smoking 
+22-Jan-16 9:03:40 PM | Bookings data is changed - Added new booking 6021 by  on 22-Jan-16 9:03:40 PM: date 22-Jan-16 9:03:40 PM, room:, customer:, participants: 40, additional: no pets allowed 
+22-Jan-16 9:03:40 PM | Bookings data is changed - Added new booking 6022 by  on 22-Jan-16 9:03:40 PM: date 22-Jan-16 9:03:40 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+22-Jan-16 9:03:40 PM | Bookings data is changed - Added new booking 6023 by  on 22-Jan-16 9:03:40 PM: date 22-Jan-16 9:03:40 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+23-Jan-16 1:24:32 AM | ContactType updated - ContactType added: skype, False
+23-Jan-16 1:24:32 AM | ContactType updated - ContactType added: phone, True
+23-Jan-16 1:24:32 AM | ContactType updated - ContactType added: email, False
+23-Jan-16 1:24:32 AM | Customers data is changed - New customer added. ID 10032: Elektrum, Anna
+23-Jan-16 1:24:32 AM | Customers data is changed - New customer added. ID 10033: EE, Daria
+23-Jan-16 1:24:33 AM | Contacts data is changes - Contact was added on 23-Jan-16 1:24:32 AM for customer 10032: type 8050 - value val_skype
+23-Jan-16 1:24:33 AM | Contacts data is changes - Contact was added on 23-Jan-16 1:24:33 AM for customer 10032: type 8050 - value val_skypeMail
+23-Jan-16 1:24:33 AM | Contacts data is changes - Contact was added on 23-Jan-16 1:24:33 AM for customer 10032: type 8050 - value val_skypePho
+23-Jan-16 1:24:33 AM | Administrators data is changed - New admin added: Alisa, al_usr, True
+23-Jan-16 1:24:33 AM | Administrators data is changed - New admin added: Anna, an_usr, True
+23-Jan-16 1:24:33 AM | Administrators data is changed - New admin added: Sergei, se_usr, True
+23-Jan-16 1:24:33 AM | Rooms data is changed - New room added: Saturn, 130, False
+23-Jan-16 1:24:33 AM | Rooms data is changed - New room added: Merkuur, 30, True
+23-Jan-16 1:24:33 AM | Rooms data is changed - New room added: Marss, 55, True
+23-Jan-16 1:24:33 AM | Bookings data is changed - Added new booking 7020 by  on 23-Jan-16 1:24:33 AM: date 23-Jan-16 1:24:33 AM, room:, customer:, participants: 25, additional: no smoking 
+23-Jan-16 1:24:33 AM | Bookings data is changed - Added new booking 7021 by  on 23-Jan-16 1:24:33 AM: date 23-Jan-16 1:24:33 AM, room:, customer:, participants: 40, additional: no pets allowed 
+23-Jan-16 1:24:33 AM | Bookings data is changed - Added new booking 7022 by  on 23-Jan-16 1:24:33 AM: date 23-Jan-16 1:24:33 AM, room:, customer:, participants: 77, additional: reconfirm by phone 
+23-Jan-16 1:24:33 AM | Bookings data is changed - Added new booking 7023 by  on 23-Jan-16 1:24:33 AM: date 23-Jan-16 1:24:33 AM, room:, customer:, participants: 77, additional: reconfirm by phone 
+24-Jan-16 3:47:53 PM | ContactType updated - ContactType added: skype, False
+24-Jan-16 3:47:54 PM | ContactType updated - ContactType added: phone, True
+24-Jan-16 3:47:54 PM | ContactType updated - ContactType added: email, False
+24-Jan-16 3:47:54 PM | Customers data is changed - New customer added. ID 19032: ABC OÜ, Anne
+24-Jan-16 3:47:54 PM | Customers data is changed - New customer added. ID 19033: XYZ AS, Daria
+24-Jan-16 3:47:54 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:47:54 PM for customer 19032: type 9050 - value val_skype
+24-Jan-16 3:47:55 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:47:54 PM for customer 19032: type 9050 - value val_ail
+24-Jan-16 3:47:55 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:47:55 PM for customer 19032: type 9050 - value val_phone
+24-Jan-16 3:47:55 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+24-Jan-16 3:47:55 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+24-Jan-16 3:47:55 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+24-Jan-16 3:47:55 PM | Rooms data is changed - New room added: Saturn, 130, False
+24-Jan-16 3:47:55 PM | Rooms data is changed - New room added: Merkuur, 30, True
+24-Jan-16 3:47:55 PM | Rooms data is changed - New room added: Marss, 55, True
+24-Jan-16 3:47:56 PM | Bookings data is changed - Added new booking 16020 by  on 29-Jan-16 3:47:56 PM: date 24-Jan-16 3:47:56 PM, room:, customer:, participants: 25, additional: no smoking 
+24-Jan-16 3:47:56 PM | Bookings data is changed - Added new booking 16021 by  on 25-Jan-16 3:47:56 PM: date 24-Jan-16 3:47:56 PM, room:, customer:, participants: 40, additional: no pets allowed 
+24-Jan-16 3:47:56 PM | Bookings data is changed - Added new booking 16022 by  on 03-Feb-16 3:47:56 PM: date 24-Jan-16 3:47:56 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+24-Jan-16 3:47:56 PM | Bookings data is changed - Added new booking 16023 by  on 10-Feb-16 3:47:56 PM: date 24-Jan-16 3:47:56 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+24-Jan-16 3:50:49 PM | ContactType updated - ContactType added: skype, False
+24-Jan-16 3:50:49 PM | ContactType updated - ContactType added: phone, True
+24-Jan-16 3:50:49 PM | ContactType updated - ContactType added: email, False
+24-Jan-16 3:50:49 PM | Customers data is changed - New customer added. ID 19034: ABC OÜ, Anne
+24-Jan-16 3:50:49 PM | Customers data is changed - New customer added. ID 19035: XYZ AS, Daria
+24-Jan-16 3:50:51 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:50:50 PM for customer 19034: type 9053 - value val_skype
+24-Jan-16 3:50:51 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:50:51 PM for customer 19034: type 9053 - value val_mail
+24-Jan-16 3:50:51 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:50:51 PM for customer 19034: type 9053 - value val_phone
+24-Jan-16 3:50:51 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+24-Jan-16 3:50:51 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+24-Jan-16 3:50:51 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+24-Jan-16 3:50:51 PM | Rooms data is changed - New room added: Saturn, 130, True
+24-Jan-16 3:50:51 PM | Rooms data is changed - New room added: Merkuur, 30, False
+24-Jan-16 3:50:51 PM | Rooms data is changed - New room added: Marss, 55, True
+24-Jan-16 3:50:54 PM | Bookings data is changed - Added new booking 16024 by  on 24-Jan-16 3:50:53 PM: date 29-Jan-16 3:50:53 PM, room:, customer:, participants: 25, additional: no smoking 
+24-Jan-16 3:50:55 PM | Bookings data is changed - Added new booking 16025 by  on 24-Jan-16 3:50:54 PM: date 25-Jan-16 3:50:54 PM, room:, customer:, participants: 40, additional: no pets allowed 
+24-Jan-16 3:50:56 PM | Bookings data is changed - Added new booking 16026 by  on 24-Jan-16 3:50:55 PM: date 03-Feb-16 3:50:55 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+24-Jan-16 3:50:58 PM | Bookings data is changed - Added new booking 16027 by  on 24-Jan-16 3:50:56 PM: date 10-Feb-16 3:50:56 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+24-Jan-16 3:54:47 PM | ContactType updated - ContactType added: skype, False
+24-Jan-16 3:54:48 PM | ContactType updated - ContactType added: phone, True
+24-Jan-16 3:54:48 PM | ContactType updated - ContactType added: email, False
+24-Jan-16 3:54:48 PM | Customers data is changed - New customer added. ID 19036: ABC OÜ, Anne
+24-Jan-16 3:54:48 PM | Customers data is changed - New customer added. ID 19037: XYZ AS, Daria
+24-Jan-16 3:54:48 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:54:48 PM for customer 19036: type 9056 - value val_skype
+24-Jan-16 3:54:48 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:54:48 PM for customer 19036: type 9056 - value val_mail
+24-Jan-16 3:54:48 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:54:48 PM for customer 19036: type 9056 - value val_phone
+24-Jan-16 3:54:48 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+24-Jan-16 3:54:48 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+24-Jan-16 3:54:48 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+24-Jan-16 3:54:48 PM | Rooms data is changed - New room added: Saturn, 130, True
+24-Jan-16 3:54:48 PM | Rooms data is changed - New room added: Merkuur, 30, False
+24-Jan-16 3:54:48 PM | Rooms data is changed - New room added: Marss, 55, True
+24-Jan-16 3:54:48 PM | Bookings data is changed - Added new booking 16028 by  on 24-Jan-16 3:54:48 PM: date 29-Jan-16 3:54:48 PM, room:, customer:, participants: 25, additional: no smoking 
+24-Jan-16 3:54:48 PM | Bookings data is changed - Added new booking 16029 by  on 24-Jan-16 3:54:48 PM: date 25-Jan-16 3:54:48 PM, room:, customer:, participants: 40, additional: no pets allowed 
+24-Jan-16 3:54:48 PM | Bookings data is changed - Added new booking 16030 by  on 24-Jan-16 3:54:48 PM: date 03-Feb-16 3:54:48 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+24-Jan-16 3:54:48 PM | Bookings data is changed - Added new booking 16031 by  on 24-Jan-16 3:54:48 PM: date 10-Feb-16 3:54:48 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+24-Jan-16 3:54:48 PM | Bookings data is changed - Added new booking 16032 by  on 16-Jan-16 3:54:48 PM: date 19-Jan-16 3:54:48 PM, room:, customer:, participants: 10, additional: catering  
+24-Jan-16 3:54:48 PM | Bookings data is changed - Added new booking 16033 by  on 19-Jan-16 3:54:48 PM: date 22-Jan-16 3:54:48 PM, room:, customer:, participants: 100, additional: no catering 
+24-Jan-16 3:56:19 PM | ContactType updated - ContactType added: skype, False
+24-Jan-16 3:56:24 PM | ContactType updated - ContactType added: phone, True
+24-Jan-16 3:56:25 PM | ContactType updated - ContactType added: email, False
+24-Jan-16 3:56:26 PM | Customers data is changed - New customer added. ID 19038: ABC OÜ, Anne
+24-Jan-16 3:56:27 PM | Customers data is changed - New customer added. ID 19039: XYZ AS, Daria
+24-Jan-16 3:56:28 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:56:27 PM for customer 19038: type 9059 - value val_skype
+24-Jan-16 3:56:28 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:56:28 PM for customer 19038: type 9059 - value val_mail
+24-Jan-16 3:56:28 PM | Contacts data is changed - Contact was added on 24-Jan-16 3:56:28 PM for customer 19038: type 9059 - value val_phone
+24-Jan-16 3:56:28 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+24-Jan-16 3:56:28 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+24-Jan-16 3:56:28 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+24-Jan-16 3:56:28 PM | Administrators data is changed - New admin added: Test Admin, test, True
+24-Jan-16 3:56:28 PM | Rooms data is changed - New room added: Saturn, 130, True
+24-Jan-16 3:56:28 PM | Rooms data is changed - New room added: Merkuur, 30, False
+24-Jan-16 3:56:28 PM | Rooms data is changed - New room added: Marss, 55, True
+24-Jan-16 3:56:29 PM | Bookings data is changed - Added new booking 16034 by  on 24-Jan-16 3:56:29 PM: date 29-Jan-16 3:56:29 PM, room:, customer:, participants: 25, additional: no smoking 
+24-Jan-16 3:56:29 PM | Bookings data is changed - Added new booking 16035 by  on 24-Jan-16 3:56:29 PM: date 25-Jan-16 3:56:29 PM, room:, customer:, participants: 40, additional: no pets allowed 
+24-Jan-16 3:56:29 PM | Bookings data is changed - Added new booking 16036 by  on 24-Jan-16 3:56:29 PM: date 03-Feb-16 3:56:29 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+24-Jan-16 3:56:29 PM | Bookings data is changed - Added new booking 16037 by  on 24-Jan-16 3:56:29 PM: date 10-Feb-16 3:56:29 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+24-Jan-16 3:56:29 PM | Bookings data is changed - Added new booking 16038 by  on 16-Jan-16 3:56:29 PM: date 19-Jan-16 3:56:29 PM, room:, customer:, participants: 10, additional: catering  
+24-Jan-16 3:56:29 PM | Bookings data is changed - Added new booking 16039 by  on 19-Jan-16 3:56:29 PM: date 22-Jan-16 3:56:29 PM, room:, customer:, participants: 100, additional: no catering 
+24-Jan-16 5:49:36 PM | ContactType updated - ContactType added: skype, False
+24-Jan-16 5:49:36 PM | ContactType updated - ContactType added: phone, True
+24-Jan-16 5:49:36 PM | ContactType updated - ContactType added: email, False
+24-Jan-16 5:49:36 PM | Customers data is changed - New customer added. ID 21038: ABC OÜ, Anne
+24-Jan-16 5:49:36 PM | Customers data is changed - New customer added. ID 21039: XYZ AS, Daria
+24-Jan-16 5:49:37 PM | Contacts data is changed - Contact was added on 24-Jan-16 5:49:37 PM for customer 21038: type 10059 - value val_skype
+24-Jan-16 5:49:37 PM | Contacts data is changed - Contact was added on 24-Jan-16 5:49:37 PM for customer 21038: type 10059 - value val_mail
+24-Jan-16 5:49:37 PM | Contacts data is changed - Contact was added on 24-Jan-16 5:49:37 PM for customer 21038: type 10059 - value val_phone
+24-Jan-16 5:49:38 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+24-Jan-16 5:49:38 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+24-Jan-16 5:49:38 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+24-Jan-16 5:49:38 PM | Administrators data is changed - New admin added: Test Admin, test, True
+24-Jan-16 5:49:38 PM | Rooms data is changed - New room added: Saturn, 130, True
+24-Jan-16 5:49:40 PM | Rooms data is changed - New room added: Merkuur, 30, False
+24-Jan-16 5:49:42 PM | Rooms data is changed - New room added: Marss, 55, True
+24-Jan-16 5:49:46 PM | Bookings data is changed - Added new booking 18028 by  on 24-Jan-16 5:49:45 PM: date 29-Jan-16 5:49:45 PM, room:, customer:, participants: 25, additional: no smoking 
+24-Jan-16 5:49:47 PM | Bookings data is changed - Added new booking 18029 by  on 24-Jan-16 5:49:46 PM: date 25-Jan-16 5:49:46 PM, room:, customer:, participants: 40, additional: no pets allowed 
+24-Jan-16 5:49:48 PM | Bookings data is changed - Added new booking 18030 by  on 24-Jan-16 5:49:47 PM: date 03-Feb-16 5:49:47 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+24-Jan-16 5:49:50 PM | Bookings data is changed - Added new booking 18031 by  on 24-Jan-16 5:49:48 PM: date 10-Feb-16 5:49:48 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+24-Jan-16 5:49:51 PM | Bookings data is changed - Added new booking 18032 by  on 16-Jan-16 5:49:50 PM: date 19-Jan-16 5:49:50 PM, room:, customer:, participants: 10, additional: catering  
+24-Jan-16 5:49:51 PM | Bookings data is changed - Added new booking 18033 by  on 19-Jan-16 5:49:51 PM: date 22-Jan-16 5:49:51 PM, room:, customer:, participants: 100, additional: no catering 
+25-Jan-16 8:01:45 PM | ContactType updated - ContactType added: skype, False
+25-Jan-16 8:01:45 PM | ContactType updated - ContactType added: phone, True
+25-Jan-16 8:01:45 PM | ContactType updated - ContactType added: email, False
+25-Jan-16 8:01:45 PM | Customers data is changed - New customer added. ID 23040: ABC OÜ, Anne
+25-Jan-16 8:01:45 PM | Customers data is changed - New customer added. ID 23041: XYZ AS, Daria
+25-Jan-16 8:01:45 PM | Contacts data is changed - Contact was added on 25-Jan-16 8:01:45 PM for customer 23040: type 10062 - value val_skype
+25-Jan-16 8:01:45 PM | Contacts data is changed - Contact was added on 25-Jan-16 8:01:45 PM for customer 23040: type 10062 - value val_mail
+25-Jan-16 8:01:45 PM | Contacts data is changed - Contact was added on 25-Jan-16 8:01:45 PM for customer 23040: type 10062 - value val_phone
+25-Jan-16 8:01:46 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+25-Jan-16 8:01:46 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+25-Jan-16 8:01:46 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+25-Jan-16 8:01:46 PM | Administrators data is changed - New admin added: Test Admin, test, True
+25-Jan-16 8:01:46 PM | Rooms data is changed - New room added: Saturn, 130, True
+25-Jan-16 8:01:46 PM | Rooms data is changed - New room added: Merkuur, 30, False
+25-Jan-16 8:01:46 PM | Rooms data is changed - New room added: Marss, 55, True
+25-Jan-16 8:01:46 PM | Bookings data is changed - Added new booking 19034 by  on 25-Jan-16 8:01:46 PM: date 30-Jan-16 8:01:46 PM, room:, customer:, participants: 25, additional: no smoking 
+25-Jan-16 8:01:46 PM | Bookings data is changed - Added new booking 19035 by  on 25-Jan-16 8:01:46 PM: date 26-Jan-16 8:01:46 PM, room:, customer:, participants: 40, additional: no pets allowed 
+25-Jan-16 8:01:46 PM | Bookings data is changed - Added new booking 19036 by  on 25-Jan-16 8:01:46 PM: date 04-Feb-16 8:01:46 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+25-Jan-16 8:01:46 PM | Bookings data is changed - Added new booking 19037 by  on 25-Jan-16 8:01:46 PM: date 11-Feb-16 8:01:46 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+25-Jan-16 8:01:46 PM | Bookings data is changed - Added new booking 19038 by  on 17-Jan-16 8:01:46 PM: date 20-Jan-16 8:01:46 PM, room:, customer:, participants: 10, additional: catering  
+25-Jan-16 8:01:46 PM | Bookings data is changed - Added new booking 19039 by  on 20-Jan-16 8:01:46 PM: date 23-Jan-16 8:01:46 PM, room:, customer:, participants: 100, additional: no catering 
+25-Jan-16 8:02:11 PM | ContactType updated - ContactType added: skype, False
+25-Jan-16 8:02:12 PM | ContactType updated - ContactType added: phone, True
+25-Jan-16 8:02:12 PM | ContactType updated - ContactType added: email, False
+25-Jan-16 8:02:12 PM | Customers data is changed - New customer added. ID 23042: ABC OÜ, Anne
+25-Jan-16 8:02:12 PM | Customers data is changed - New customer added. ID 23043: XYZ AS, Daria
+25-Jan-16 8:02:12 PM | Contacts data is changed - Contact was added on 25-Jan-16 8:02:12 PM for customer 23042: type 10065 - value val_skype
+25-Jan-16 8:02:12 PM | Contacts data is changed - Contact was added on 25-Jan-16 8:02:12 PM for customer 23042: type 10065 - value val_mail
+25-Jan-16 8:02:12 PM | Contacts data is changed - Contact was added on 25-Jan-16 8:02:12 PM for customer 23042: type 10065 - value val_phone
+25-Jan-16 8:02:12 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+25-Jan-16 8:02:12 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+25-Jan-16 8:02:12 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+25-Jan-16 8:02:12 PM | Administrators data is changed - New admin added: Test Admin, test, True
+25-Jan-16 8:02:12 PM | Rooms data is changed - New room added: Saturn, 130, True
+25-Jan-16 8:02:12 PM | Rooms data is changed - New room added: Merkuur, 30, False
+25-Jan-16 8:02:12 PM | Rooms data is changed - New room added: Marss, 55, True
+25-Jan-16 8:02:12 PM | Bookings data is changed - Added new booking 19040 by  on 25-Jan-16 8:02:12 PM: date 30-Jan-16 8:02:12 PM, room:, customer:, participants: 25, additional: no smoking 
+25-Jan-16 8:02:12 PM | Bookings data is changed - Added new booking 19041 by  on 25-Jan-16 8:02:12 PM: date 26-Jan-16 8:02:12 PM, room:, customer:, participants: 40, additional: no pets allowed 
+25-Jan-16 8:02:12 PM | Bookings data is changed - Added new booking 19042 by  on 25-Jan-16 8:02:12 PM: date 04-Feb-16 8:02:12 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+25-Jan-16 8:02:12 PM | Bookings data is changed - Added new booking 19043 by  on 25-Jan-16 8:02:12 PM: date 11-Feb-16 8:02:12 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+25-Jan-16 8:02:13 PM | Bookings data is changed - Added new booking 19044 by  on 17-Jan-16 8:02:12 PM: date 20-Jan-16 8:02:12 PM, room:, customer:, participants: 10, additional: catering  
+25-Jan-16 8:02:13 PM | Bookings data is changed - Added new booking 19045 by  on 20-Jan-16 8:02:13 PM: date 23-Jan-16 8:02:13 PM, room:, customer:, participants: 100, additional: no catering 
+25-Jan-16 11:09:18 PM | ContactType updated - ContactType added: skype, False
+25-Jan-16 11:09:20 PM | ContactType updated - ContactType added: phone, True
+25-Jan-16 11:09:21 PM | ContactType updated - ContactType added: email, False
+25-Jan-16 11:09:24 PM | Customers data is changed - New customer added. ID 25046: ABC OÜ, Anne
+25-Jan-16 11:09:24 PM | Customers data is changed - New customer added. ID 25047: XYZ AS, Daria
+25-Jan-16 11:09:25 PM | Contacts data is changed - Contact was added on 25-Jan-16 11:09:25 PM for customer 25046: type 10068 - value val_skype
+25-Jan-16 11:09:26 PM | Contacts data is changed - Contact was added on 25-Jan-16 11:09:25 PM for customer 25046: type 10068 - value val_mail
+25-Jan-16 11:09:28 PM | Contacts data is changed - Contact was added on 25-Jan-16 11:09:26 PM for customer 25046: type 10068 - value val_phone
+25-Jan-16 11:09:28 PM | Administrators data is changed - New admin added: Alisa, al_usr, True
+25-Jan-16 11:09:29 PM | Administrators data is changed - New admin added: Anna, an_usr, True
+25-Jan-16 11:09:30 PM | Administrators data is changed - New admin added: Sergei, se_usr, True
+25-Jan-16 11:09:31 PM | Administrators data is changed - New admin added: Test Admin, test, True
+25-Jan-16 11:09:32 PM | Rooms data is changed - New room added: Saturn, 130, True
+25-Jan-16 11:09:33 PM | Rooms data is changed - New room added: Marss, 30, False
+25-Jan-16 11:09:35 PM | Rooms data is changed - New room added: Merkuur, 55, True
+25-Jan-16 11:09:41 PM | Bookings data is changed - Added new booking 21048 by  on 25-Jan-16 11:09:41 PM: date 30-Jan-16 11:09:41 PM, room:, customer:, participants: 25, additional: no smoking 
+25-Jan-16 11:09:42 PM | Bookings data is changed - Added new booking 21049 by  on 25-Jan-16 11:09:41 PM: date 26-Jan-16 11:09:41 PM, room:, customer:, participants: 40, additional: no pets allowed 
+25-Jan-16 11:09:43 PM | Bookings data is changed - Added new booking 21050 by  on 25-Jan-16 11:09:42 PM: date 04-Feb-16 11:09:42 PM, room:, customer:, participants: 77, additional: reconfirm by phone 
+25-Jan-16 11:09:46 PM | Bookings data is changed - Added new booking 21051 by  on 25-Jan-16 11:09:43 PM: date 11-Feb-16 11:09:43 PM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+25-Jan-16 11:09:49 PM | Bookings data is changed - Added new booking 21052 by  on 17-Jan-16 11:09:46 PM: date 20-Jan-16 11:09:46 PM, room:, customer:, participants: 10, additional: catering  
+25-Jan-16 11:09:50 PM | Bookings data is changed - Added new booking 21053 by  on 20-Jan-16 11:09:49 PM: date 23-Jan-16 11:09:49 PM, room:, customer:, participants: 100, additional: no catering 
+29-Jan-16 1:12:14 AM | ContactType updated - ContactType added: skype, False
+29-Jan-16 1:12:15 AM | ContactType updated - ContactType added: phone, True
+29-Jan-16 1:12:15 AM | ContactType updated - ContactType added: email, False
+29-Jan-16 1:12:16 AM | Customers data is changed - New customer added. ID 27048: ABC OÜ, Anne
+29-Jan-16 1:12:16 AM | Customers data is changed - New customer added. ID 27049: XYZ AS, Daria
+29-Jan-16 1:12:17 AM | Contacts data is changed - Contact was added on 29-Jan-16 1:12:17 AM for customer 27048: type 10071 - value val_skype
+29-Jan-16 1:12:17 AM | Contacts data is changed - Contact was added on 29-Jan-16 1:12:17 AM for customer 27048: type 10071 - value val_mail
+29-Jan-16 1:12:18 AM | Contacts data is changed - Contact was added on 29-Jan-16 1:12:17 AM for customer 27048: type 10071 - value val_phone
+29-Jan-16 1:12:18 AM | Administrators data is changed - New admin added: Alisa, al_usr, True
+29-Jan-16 1:12:18 AM | Administrators data is changed - New admin added: Anna, an_usr, True
+29-Jan-16 1:12:18 AM | Administrators data is changed - New admin added: Sergei, se_usr, True
+29-Jan-16 1:12:19 AM | Administrators data is changed - New admin added: Test Admin, test, True
+29-Jan-16 1:12:20 AM | Rooms data is changed - New room added: Saturn, 130, True
+29-Jan-16 1:12:20 AM | Rooms data is changed - New room added: Marss, 30, False
+29-Jan-16 1:12:20 AM | Rooms data is changed - New room added: Merkuur, 55, True
+29-Jan-16 1:12:22 AM | Bookings data is changed - Added new booking 22049 by  on 29-Jan-16 1:12:21 AM: date 03-Feb-16 1:12:21 AM, room:, customer:, participants: 25, additional: no smoking 
+29-Jan-16 1:12:22 AM | Bookings data is changed - Added new booking 22050 by  on 29-Jan-16 1:12:22 AM: date 30-Jan-16 1:12:22 AM, room:, customer:, participants: 40, additional: no pets allowed 
+29-Jan-16 1:12:22 AM | Bookings data is changed - Added new booking 22051 by  on 29-Jan-16 1:12:22 AM: date 08-Feb-16 1:12:22 AM, room:, customer:, participants: 77, additional: reconfirm by phone 
+29-Jan-16 1:12:22 AM | Bookings data is changed - Added new booking 22052 by  on 29-Jan-16 1:12:22 AM: date 15-Feb-16 1:12:22 AM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+29-Jan-16 1:12:23 AM | Bookings data is changed - Added new booking 22053 by  on 21-Jan-16 1:12:22 AM: date 24-Jan-16 1:12:22 AM, room:, customer:, participants: 10, additional: catering  
+29-Jan-16 1:12:23 AM | Bookings data is changed - Added new booking 22054 by  on 24-Jan-16 1:12:23 AM: date 27-Jan-16 1:12:23 AM, room:, customer:, participants: 100, additional: no catering 
+29-Jan-16 1:13:38 AM | ContactType updated - ContactType added: skype, False
+29-Jan-16 1:13:38 AM | ContactType updated - ContactType added: phone, True
+29-Jan-16 1:13:38 AM | ContactType updated - ContactType added: email, False
+29-Jan-16 1:13:39 AM | Customers data is changed - New customer added. ID 27050: ABC OÜ, Anne
+29-Jan-16 1:13:39 AM | Customers data is changed - New customer added. ID 27051: XYZ AS, Daria
+29-Jan-16 1:13:39 AM | Contacts data is changed - Contact was added on 29-Jan-16 1:13:39 AM for customer 27050: type 10074 - value val_skype
+29-Jan-16 1:13:39 AM | Contacts data is changed - Contact was added on 29-Jan-16 1:13:39 AM for customer 27050: type 10074 - value val_mail
+29-Jan-16 1:13:39 AM | Contacts data is changed - Contact was added on 29-Jan-16 1:13:39 AM for customer 27050: type 10074 - value val_phone
+29-Jan-16 1:13:39 AM | Administrators data is changed - New admin added: Alisa, al_usr, True
+29-Jan-16 1:13:39 AM | Administrators data is changed - New admin added: Anna, an_usr, True
+29-Jan-16 1:13:39 AM | Administrators data is changed - New admin added: Sergei, se_usr, True
+29-Jan-16 1:13:39 AM | Administrators data is changed - New admin added: Test Admin, test, True
+29-Jan-16 1:13:39 AM | Rooms data is changed - New room added: Saturn, 130, True
+29-Jan-16 1:13:39 AM | Rooms data is changed - New room added: Marss, 30, False
+29-Jan-16 1:13:39 AM | Rooms data is changed - New room added: Merkuur, 55, True
+29-Jan-16 1:13:39 AM | Bookings data is changed - Added new booking 22055 by  on 29-Jan-16 1:13:39 AM: date 30-Jan-16 1:13:39 AM, room:, customer:, participants: 25, additional: no smoking 
+29-Jan-16 1:13:39 AM | Bookings data is changed - Added new booking 22056 by  on 29-Jan-16 1:13:39 AM: date 30-Jan-16 1:13:39 AM, room:, customer:, participants: 40, additional: no pets allowed 
+29-Jan-16 1:13:39 AM | Bookings data is changed - Added new booking 22057 by  on 29-Jan-16 1:13:39 AM: date 08-Feb-16 1:13:39 AM, room:, customer:, participants: 77, additional: reconfirm by phone 
+29-Jan-16 1:13:39 AM | Bookings data is changed - Added new booking 22058 by  on 29-Jan-16 1:13:39 AM: date 15-Feb-16 1:13:39 AM, room:, customer:, participants: 55, additional: reconfirm by phone tomorrow 
+29-Jan-16 1:13:39 AM | Bookings data is changed - Added new booking 22059 by  on 21-Jan-16 1:13:39 AM: date 24-Jan-16 1:13:39 AM, room:, customer:, participants: 10, additional: catering  
+29-Jan-16 1:13:39 AM | Bookings data is changed - Added new booking 22060 by  on 24-Jan-16 1:13:39 AM: date 27-Jan-16 1:13:39 AM, room:, customer:, participants: 100, additional: no catering 

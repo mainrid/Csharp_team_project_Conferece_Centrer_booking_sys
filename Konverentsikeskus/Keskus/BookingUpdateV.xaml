@@ -1,0 +1,64 @@
+﻿<Page x:Class="Keskus.BookingUpdateV"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Keskus"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="700"
+      Title="NewBooking">
+    <Page.Resources>
+        <!-- removes header from listCustomers listView-->
+        <Style x:Key="noHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="Visibility" Value="Collapsed" />
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <!-- labels-->
+        <Label  Content="Broneeringu andmed" HorizontalAlignment="Left" Margin="38,29,0,0" VerticalAlignment="Top" Width="310" Height="50" Padding="0,5,5,5" FontSize="21.333"/>
+        <Label  Content="Klient:" HorizontalAlignment="Left" Margin="37,152,0,0" VerticalAlignment="Top" Width="106" Height="35" Padding="0,5,5,5"/>
+        <Label  Content="Ruum:" HorizontalAlignment="Left" Margin="38,112,0,0" VerticalAlignment="Top" Width="106" Height="35" Padding="0,5,5,5"/>
+        <Label  Content="Kuupäev:" HorizontalAlignment="Left" Margin="38,77,0,0" VerticalAlignment="Top" Width="106" Height="35" Padding="0,5,5,5"/>
+        <Label Content="Osalejate arv:" HorizontalAlignment="Left" Margin="38,263,0,0" VerticalAlignment="Top" Width="106" Height="35" Padding="0,5,5,5"/>
+        <Label  Content="Lisainfo:" HorizontalAlignment="Left" Margin="37,306,0,0" VerticalAlignment="Top" Width="106" Height="35" Padding="0,5,5,5"/>
+        <!-- end labels-->
+        
+        <!-- buttons-->
+        <Button x:Name="btnBook" Content="Kinnita" HorizontalAlignment="Right" Margin="0,0,31,28" VerticalAlignment="Bottom" Width="106" Height="45" Click="btnBook_Click" TabIndex="9"/>
+        <Button x:Name="btnAddCustomer" Content="Lisa uus klient" HorizontalAlignment="Left" Margin="141,153,0,0" VerticalAlignment="Top" Width="91" Click="btnAddCustomer_Click" Height="26" TabIndex="6"/>
+        <Button x:Name="btnCancel" Content="Tagasi" HorizontalAlignment="Left" Margin="31,427,0,0" VerticalAlignment="Top" Width="106" Height="45" RenderTransformOrigin="-3.175,0.611" Click="btnCancel_Click" TabIndex="10"/>
+        <Button x:Name="btnFindCustomer" Content="Otsi" HorizontalAlignment="Left" Margin="249,153,0,0" VerticalAlignment="Top" Width="91"  Height="26" Click="btnFindCustomer_Click" TabIndex="4"/>
+        <!-- end buttons-->
+        
+        <!--user forms-->
+        <TextBox x:Name="txtCustomer" HorizontalAlignment="Left" Height="26" Margin="141,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" VerticalContentAlignment="Center" TabIndex="3"/>
+        <ComboBox x:Name="cboxRoom" HorizontalAlignment="Left" Height="26" Margin="141,112,0,0" VerticalAlignment="Top" Width="200" Background="White" Foreground="Black" SelectionChanged="cboxRuum_selectionChanged" TabIndex="2">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBox x:Name="txtParticipants" HorizontalAlignment="Left" Height="26" Margin="140,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" VerticalContentAlignment="Center" PreviewTextInput="CheckTextInput"  TextChanged="txtParticipants_TextChanged" AllowDrop="False"  CommandManager.PreviewExecuted="textBox_PreviewExecuted"
+         ContextMenu="{x:Null}" TabIndex="7"/>
+        <TextBox x:Name="txtAdditionalInfo" HorizontalAlignment="Left" Height="110" Margin="141,303,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" TabIndex="8"/>
+        <DatePicker x:Name="txtDate"  HorizontalAlignment="Left" Margin="141,77,0,0" VerticalAlignment="Top" Height="26" Width="200" Loaded="DatePicker_Loaded" SelectedDateChanged="txtDate_selectionChanged" LostFocus="checkDate" Text="Vali kuupäev" IsTabStop="True" AllowDrop="True" IsTodayHighlighted="True" IsHitTestVisible="True" TabIndex="1"/>
+        <ListView  x:Name="listCustomers" HorizontalAlignment="Left" Height="74" Margin="360,184,0,0" VerticalAlignment="Top" Width="200" SelectionChanged="listCustomers_selectionChanged" TabIndex="5" >
+            <ListView.View >
+                <GridView ColumnHeaderContainerStyle="{StaticResource noHeaderStyle}" AllowsColumnReorder="False">
+                    <GridViewColumn x:Name="listColumn" DisplayMemberBinding="{Binding Path=CompanyName}" Width="150" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!-- end user forms-->
+        
+        <!--warning and instruction labels-->
+        <TextBlock x:Name="lblWarning" HorizontalAlignment="Left" Margin="360,77,0,0" VerticalAlignment="Top" Width="200" Foreground="#FFF72C2C" FontWeight="Bold" TextWrapping="WrapWithOverflow" Height="45"/>
+        <TextBlock x:Name="lblWarning2" HorizontalAlignment="Left" Margin="360,263,0,0" VerticalAlignment="Top" Width="200" Foreground="#FFF72C2C" FontWeight="Bold" TextWrapping="WrapWithOverflow" Height="61"/>
+        <TextBlock x:Name="lblWarningBook" HorizontalAlignment="Left" Margin="474,393,0,0" VerticalAlignment="Top" Width="200" Foreground="#FFF72C2C" FontWeight="Bold" TextWrapping="WrapWithOverflow" Height="29"/>
+        <Label x:Name="lblInstructions" HorizontalAlignment="Left" Margin="360,152,0,0" VerticalAlignment="Top" Width="200" />
+        <!-- end warning and instruction labels-->
+    </Grid>
+</Page>

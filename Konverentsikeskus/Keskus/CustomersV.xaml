@@ -1,0 +1,61 @@
+﻿<Page x:Class="Keskus.CustomersV"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Keskus"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="700"
+      Title="CustomersV" >
+    
+    <Grid>
+        <Label  Content="Kliendid" HorizontalAlignment="Left" Margin="38,29,0,0" VerticalAlignment="Top" Width="310" Height="50" Padding="0,5,5,5" FontSize="21.333"/>
+        
+        
+        <!-- customer list-->
+        <ListView x:Name="listCustomers" HorizontalAlignment="Left" Height="198" Margin="38,84,0,0" VerticalAlignment="Top" Width="447"  SelectionChanged="listCustomers_SelectionChanged" TabIndex="1" Loaded="updateView" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=CustomerID}" Header="ID" Width="50" />
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=CompanyName}" Header="Organisatsioon" Width="170" />
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=ContactPerson}" Header="Kontaktisik" Width="170" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!--end customer list-->
+        
+        <!--customer contact list-->
+        <ListView x:Name="listContacts" HorizontalAlignment="Left" Height="117" Margin="38,319,0,0" VerticalAlignment="Top" Width="447">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=ContactTypeName}" Header="Kontakt Liik" Width="80" />
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=Value}" Header="Väärtus" Width="190" />
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=Created}" Header="Loodud" Width="150" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!--end customer contact list-->
+        
+        <!--buttons-->
+        <Button x:Name="btnAddCustomer" Content="Lisa uus klient" HorizontalAlignment="Right" Margin="0,0,31,28" VerticalAlignment="Bottom" Width="106" Height="45" RenderTransformOrigin="0.498,-0.088" Click="btnAddCustomer_Click" TabIndex="3" />
+        <Button x:Name="btnChangeCustomer" Content="Muuda andmed" HorizontalAlignment="Left" Margin="563,377,0,0" VerticalAlignment="Top" Width="106" Height="45" RenderTransformOrigin="0.498,-0.088" Click="btnChangeCustomer_Click" TabIndex="2">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=SelectedItem,
+                                               ElementName=listCustomers}"
+                             Value="{x:Null}">
+                            <Setter Property="IsEnabled" Value="False"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <!--end buttons-->
+        
+        <!--labels-->
+        <Label x:Name="lblCompanyName" Content="" HorizontalAlignment="Left" Height="27" Margin="38,287,0,0" VerticalAlignment="Top" Width="221"/>
+        <Label x:Name="lblContactPerson" Content="" HorizontalAlignment="Left" Height="27" Margin="264,287,0,0" VerticalAlignment="Top" Width="221"/>
+        <!--end labels-->
+    </Grid>
+</Page>

@@ -1,0 +1,61 @@
+﻿<Page x:Class="Keskus.RoomsV"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Keskus"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="700"
+      Title="RoomsV" >
+
+    <Grid>
+        <Label  Content="Ruumid" HorizontalAlignment="Left" Margin="38,29,0,0" VerticalAlignment="Top" Width="310" Height="50" Padding="0,5,5,5" FontSize="21.333"/>
+        
+        <!--room list-->
+        <ListView x:Name="listRooms" HorizontalAlignment="Left" Height="356" Margin="38,93,0,0" VerticalAlignment="Top" Width="397" SelectionChanged="listRooms_SelectionChanged" TabIndex="1" >
+            <ListView.View>
+                <GridView x:Name="listRoomsGrid">
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=RoomID}" Header="ID" Width="50" />
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=Name}" Header="Nimetus" Width="180"/>
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=Seats}" Header="Istekohad" Width="100"/>
+                    <GridViewColumn DisplayMemberBinding= "{Binding Path=Active}" Header="Aktiivne" Width="50"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!--end room list-->
+        <Button x:Name="btnUpdateRoom" Content="Muuda andmed" HorizontalAlignment="Right" Margin="0,0,31,28" VerticalAlignment="Bottom" Width="106" Height="45" RenderTransformOrigin="0.498,-0.088" Click="btnUpdateRoom_Click" TabIndex="2"  >
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=SelectedItem,
+                                               ElementName=listRooms}"
+                             Value="{x:Null}">
+                            <Setter Property="IsEnabled" Value="False"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <!-- "interactive" floor plan element, silmailu -->
+        <Canvas HorizontalAlignment="Left" Height="249" Margin="454,115,0,0" VerticalAlignment="Top" Width="217">
+            <Canvas.Background>
+                <SolidColorBrush Color="#FFF0F0F0"/>
+            </Canvas.Background>
+
+            <Button x:Name="btnPlan1"   Height="89"  Width="217" Background="White" BorderBrush="#FF7DBA1D" BorderThickness="3" Focusable="False" IsHitTestVisible="False" IsTabStop="False" />
+            <Button x:Name="btnPlan3" Height="70" BorderBrush="#FF7DBA1D" BorderThickness="3" Canvas.Top="87" Width="101" Background="White" Focusable="False" IsHitTestVisible="False" IsTabStop="False" />
+            <Button x:Name="btnPlan2"  Background="#FFFFFFFF" Height="95" BorderBrush="#FF7DBA1D"  BorderThickness="3" Canvas.Top="154" Width="101" Focusable="False" IsTabStop="False" IsHitTestVisible="False" />
+            <Label x:Name="label" Content="fuajee" Canvas.Left="141" Canvas.Top="170" IsEnabled="False">
+                <Label.Foreground>
+                    <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.AppWorkspaceColorKey}}"/>
+                </Label.Foreground>
+            </Label>
+
+        </Canvas>
+        <Label x:Name="label1" Content="Keskuse plaan:" HorizontalAlignment="Left" Margin="454,84,0,0" VerticalAlignment="Top"/>
+        <!--end floor plan-->
+
+    </Grid>
+</Page>

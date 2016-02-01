@@ -1,0 +1,10 @@
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\bin\Debug\Keskus.DAL.dll.config
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\bin\Debug\Keskus.DAL.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\bin\Debug\Keskus.DAL.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\bin\Debug\EntityFramework.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\bin\Debug\EntityFramework.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\obj\Debug\Keskus.DAL.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\obj\Debug\Keskus.DAL.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\Keskus.DAL\obj\Debug\Keskus.DAL.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\TestRakendus.exe.config
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\TestRakendus.exe
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\TestRakendus.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\EntityFramework.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\Keskus.BLL.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\Keskus.DAL.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\Keskus.BLL.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\Keskus.DAL.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\EntityFramework.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\obj\Debug\TestRakendus.csprojResolveAssemblyReference.cache
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\obj\Debug\TestRakendus.exe
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\obj\Debug\TestRakendus.pdb
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\alisa\Desktop\KonverentsProject\Konverentsikeskus\TestRakendus\bin\Debug\DocumentFormat.OpenXml.dll

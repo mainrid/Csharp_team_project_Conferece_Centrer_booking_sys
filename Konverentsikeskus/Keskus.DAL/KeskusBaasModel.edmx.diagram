@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c0460207e7c4ffaa3e5c2b518daa847" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="KeskusBaasModel.Administrator" Width="1.5" PointX="5.25" PointY="3.75" />
+        <EntityTypeShape EntityType="KeskusBaasModel.Booking" Width="1.5" PointX="5.25" PointY="6.5" />
+        <EntityTypeShape EntityType="KeskusBaasModel.Contact" Width="1.5" PointX="1.375" PointY="7.25" />
+        <EntityTypeShape EntityType="KeskusBaasModel.ContactType" Width="1.5" PointX="1.375" PointY="5.125" />
+        <EntityTypeShape EntityType="KeskusBaasModel.Customer" Width="1.5" PointX="3.25" PointY="7.25" />
+        <EntityTypeShape EntityType="KeskusBaasModel.Room" Width="1.5" PointX="7.375" PointY="7.375" />
+        <AssociationConnector Association="KeskusBaasModel.FK_Broneering_Administraator1" />
+        <AssociationConnector Association="KeskusBaasModel.FK_Broneering_Klient1" />
+        <AssociationConnector Association="KeskusBaasModel.FK_Broneering_Ruum1" />
+        <AssociationConnector Association="KeskusBaasModel.FK_Kontakt_Klient1" />
+        <AssociationConnector Association="KeskusBaasModel.FK_Kontakt_Kontaktliik1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
